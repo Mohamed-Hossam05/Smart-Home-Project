@@ -42,12 +42,6 @@ An integrated embedded systems and mechatronics prototype developed at the **Fac
 
 ---
 
-## Firmware Architecture
-
-The firmware avoids blocking `delay()` calls by implementing a cooperative non-blocking scheduler (`backgroundTasks()` / `waitMs()`). This ensures continuous sensor polling, real-time LCD status updates, and immediate keypad responsiveness across all operating states.
-
----
-
 ## Project Team
 
 * **Mohamed Hossam Mohamed** (`2400613`)
